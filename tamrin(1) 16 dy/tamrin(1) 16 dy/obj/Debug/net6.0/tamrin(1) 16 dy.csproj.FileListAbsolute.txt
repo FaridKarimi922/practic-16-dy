@@ -1,0 +1,14 @@
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\bin\Debug\net6.0\tamrin(1) 16 dy.exe
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\bin\Debug\net6.0\tamrin(1) 16 dy.deps.json
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\bin\Debug\net6.0\tamrin(1) 16 dy.runtimeconfig.json
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\bin\Debug\net6.0\tamrin(1) 16 dy.dll
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\bin\Debug\net6.0\tamrin(1) 16 dy.pdb
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\tamrin(1) 16 dy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\tamrin(1) 16 dy.AssemblyInfoInputs.cache
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\tamrin(1) 16 dy.AssemblyInfo.cs
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\tamrin(1) 16 dy.csproj.CoreCompileInputs.cache
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\tamrin(1) 16 dy.dll
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\refint\tamrin(1) 16 dy.dll
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\tamrin(1) 16 dy.pdb
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\tamrin(1) 16 dy.genruntimeconfig.cache
+C:\Users\peyman\source\repos\tamrin(1) 16 dy\tamrin(1) 16 dy\obj\Debug\net6.0\ref\tamrin(1) 16 dy.dll

@@ -1,0 +1,4 @@
+C:\Users\peyman\source\repos\tamrin (5) 16 dy\tamrin (5) 16 dy\obj\Debug\net6.0\tamrin (5) 16 dy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peyman\source\repos\tamrin (5) 16 dy\tamrin (5) 16 dy\obj\Debug\net6.0\tamrin (5) 16 dy.AssemblyInfoInputs.cache
+C:\Users\peyman\source\repos\tamrin (5) 16 dy\tamrin (5) 16 dy\obj\Debug\net6.0\tamrin (5) 16 dy.AssemblyInfo.cs
+C:\Users\peyman\source\repos\tamrin (5) 16 dy\tamrin (5) 16 dy\obj\Debug\net6.0\tamrin (5) 16 dy.csproj.CoreCompileInputs.cache

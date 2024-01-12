@@ -11,13 +11,13 @@ namespace tamrin__3__16_dy
 
         public RentCar(User user, Car car)
         {
-            Cars = new List<Car>();
-            Users = new List<User>();
-
+            Cars = new();
+            Users = new();
         }
 
         public List<Car> Cars { get; set; }
 
         public List<User> Users { get; set; }
+      
     }
 }

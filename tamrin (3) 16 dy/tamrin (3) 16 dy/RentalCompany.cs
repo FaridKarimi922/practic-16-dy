@@ -17,28 +17,25 @@ namespace tamrin__3__16_dy
         {
             if (type == 1)
             {
-                IranianCar iranianCar = new IranianCar(name, speed, model);
+                IranianCar iranianCar = new IranianCar(name,speed,model);
                 iranianCar.SetSpeed(speed);
                 iranianCar.SetModel(model);
                 _cars.Add(iranianCar);
-               
-                
-               
+
             }
             if (type == 2)
             {
-                ForeignCar foreignCar = new ForeignCar(name, speed, model);
+                ForeignCar foreignCar = new ForeignCar(name,speed,model);
                 foreignCar.SetSpeed(speed);
                 foreignCar.SetModel(model);
                 _cars.Add(foreignCar);
-
             }
         }
         public static List<Car> GetCars()
         {
             return _cars;
         }
-        public static void AddUser(string name,string nationalCode)
+        public static void AddUser(string name, string nationalCode)
         {
             User user = new User(name, nationalCode);
             _users.Add(user);
@@ -46,26 +43,31 @@ namespace tamrin__3__16_dy
 
 
         }
-        public static void RentCar (string userName ,string carName )
+        public static void RentCar(string userName, string carName)
         {
-            var existUser = _users.Any(_ => _.Name == userName);
-            var existCar = _cars.Any(_ => _.Name == carName);
-            if (existUser && existCar)
+            var isUser = _users.Any(_ => _.Name == userName);
+            var isCar = _cars.Any(_ => _.Name == carName);
+            if (isUser && isCar)
             {
                 var findUser = _users.Find(_ => _.Name == userName)!;
                 var findCar = _cars.Find(_ => _.Name == carName)!;
-                RentCar rent = new RentCar(findUser, findCar);
-
-                _rents.Add(rent);
-
-
+                var isCarRent = _rents.Any(_ => _.Equals(findCar));
+                if (!isCarRent)
+                {
+                    RentCar rent = new RentCar(findUser, findCar);
+                    _rents.Add(rent);
+                    Console.WriteLine($"car {carName} sale {userName}");
+                }
+                else
+                {
+                    throw new Exception("This car has already been sold!!!");
+                }
+                
             }
             else
             {
                 throw new Exception("User or machine not found!!!");
             }
-
-
         }
         public static List<RentCar> GetRent()
         {

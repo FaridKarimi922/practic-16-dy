@@ -24,7 +24,8 @@ namespace tamrin__3__16_dy
             static void Run()
             {
 
-                var option = GetIntegerValid("1_ Add Car\n2_ Show Cars\n3_ Add User\n4_ Rent Car");
+                var option = GetIntegerValid("1_ Add Car\n2_ Show Cars\n3_ Add User" +
+                    "\n4_ Rent Car \n5_ show Rent Cars");
                 switch (option)
                 {
                     case 1:
@@ -35,19 +36,14 @@ namespace tamrin__3__16_dy
                             var model = GetIntegerValid("Enter Car Model :");
 
                             RentalCompany.AddCar(name, speed, model, typeCAr);
-
-
                             break;
-
                         }
                     case 2:
                         {
                             foreach (var item in RentalCompany.GetCars())
                             {
-
                                 Console.WriteLine($"name = {item.Name} speed = {item.Speed} model = {item.Model}");
                             }
-
                             break;
                         }
                     case 3:
@@ -64,8 +60,6 @@ namespace tamrin__3__16_dy
                             var carName = GetStringValid("Enter Car Name :");
                             RentalCompany.RentCar(userName, carName);
 
-
-
                             break;
                         }
                     case 5:
@@ -80,8 +74,6 @@ namespace tamrin__3__16_dy
                                     }
                                 }
                             }
-
-
                             break;
                         }
                     default:
@@ -89,11 +81,6 @@ namespace tamrin__3__16_dy
                         break;
                 }
             }
-
-
-
-
-
         }
         public static string GetStringValid(string message)
         {

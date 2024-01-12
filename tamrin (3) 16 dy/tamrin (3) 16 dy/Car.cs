@@ -8,19 +8,20 @@ namespace tamrin__3__16_dy
 {
     public abstract class Car
     {
-        protected Car(string name,int speed ,int model)
+        protected Car(string name, int speed, int model)
         {
             Name = name;
-            Model =model;
             Speed = speed;
+            Model = model;
+
         }
         public string Name { get; set; }
         public int Speed { get; private set; }
-        public int Model { get;private set; }
+        public int Model { get; private set; }
         public abstract void SetSpeed(int speed);
-      
+
         public abstract void SetModel(int model);
-        
+
 
     }
     public class IranianCar : Car
@@ -35,7 +36,6 @@ namespace tamrin__3__16_dy
             {
                 throw new Exception("Iranian car model cannot be less than 2012!!!");
             }
-           
         }
 
         public override void SetSpeed(int speed)
@@ -44,7 +44,7 @@ namespace tamrin__3__16_dy
             {
                 throw new Exception("The speed of an Iranian car cannot be more than 120 km");
             }
-           
+
         }
     }
     public class ForeignCar : Car
@@ -60,7 +60,6 @@ namespace tamrin__3__16_dy
                 throw new Exception("Iranian car model cannot be less than 2020!!!");
             }
         }
-
         public override void SetSpeed(int speed)
         {
             if (speed > 200)

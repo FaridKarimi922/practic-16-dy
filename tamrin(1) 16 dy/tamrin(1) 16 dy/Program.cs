@@ -7,7 +7,7 @@
             var firstName = GetStringValid("please Enter FirstName :");
             var lastName = GetStringValid("please Enter LastName :");
 
-           Person.GetFuulName(firstName, lastName);
+            Person.GetFullName(firstName, lastName);
 
         }
         public static string GetStringValid(string message)

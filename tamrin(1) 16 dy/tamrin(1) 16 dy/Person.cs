@@ -11,10 +11,11 @@ namespace tamrin_1__16_dy
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
 
-        public static void GetFuulName (string FirstName, string LastName )
+        public static void GetFullName (string firstName, string lastName )
         {
 
-            Console.WriteLine(FirstName +" "+LastName );
+            
+            Console.WriteLine($"Hello {firstName} {lastName}");
         }
 
 

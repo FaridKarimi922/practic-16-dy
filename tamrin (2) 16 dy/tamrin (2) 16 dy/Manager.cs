@@ -27,6 +27,10 @@ namespace tamrin__2__16_dy
 
         public override void SetSalary(int salary)
         {
+            if (salary < 6000)
+            {
+                throw new Exception("salary cannot be smaller than 6000 toman");
+            }
             base.SetSalary(salary);
         }
         public void PrintDetiles()

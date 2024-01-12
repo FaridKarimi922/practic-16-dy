@@ -14,23 +14,21 @@ namespace tamrin__2__16_dy
         }
         public string Name { get; set; }
         public int ID { get; private set; }
-        public int Salary { get; set; }
+        public int Salary { get; private set; }
         public virtual void SetiD(int iD)
         {
             if (iD < 1)
             {
                 throw new Exception("AD cannot be smaller than zero");
             }
-
             ID = iD;
         }
         public virtual void SetSalary(int salary)
         {
-            if (salary < 1)
+            if (salary < 5000)
             {
-                throw new Exception("salary cannot be smaller than zero");
+                throw new Exception("salary cannot be smaller than 5000 toman");
             }
-
             Salary = salary;
         }
         public void PrintDetiles()

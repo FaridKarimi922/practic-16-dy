@@ -1,4 +1,6 @@
-﻿namespace tamrin__2__16_dy
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace tamrin__2__16_dy
 {
     internal class Program
     {
@@ -6,7 +8,19 @@
         {
             do
             {
-            var option = GetIntegerValid("1_ add employee\n2_ add manager");
+                try
+                {
+                    Run();
+                }
+                catch (Exception exeption)
+                {
+                    Console.WriteLine(exeption.Message);
+                }
+            } while (true);
+          
+           static void Run()
+            {
+                var option = GetIntegerValid("1_ add employee\n2_ add manager");
 
                 switch (option)
                 {
@@ -25,32 +39,16 @@
                             var iD = GetIntegerValid("enter ID manager :");
                             var salary = GetIntegerValid("enter salary manager :");
                             var department = GetIntegerValid("enter department manager :");
-
-                            Company.AddManager(name, iD, salary,department);
+                            Company.AddManager(name, iD, salary, department);
 
                             break;
                         }
-
-
 
                     default:
                         Console.WriteLine("not valid!!!");
                         break;
                 }
-
-
-
-
-
-
-
-            } while (true);
-
-
-
-
-
-
+            }
         }
         public static int GetIntegerValid(string message)
         {

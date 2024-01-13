@@ -49,7 +49,7 @@
                             foreach (var categori in Librari.GetCategories())
                             {
                                 var capacity = categori.Iteam.Count;
-                                var remainingCapacity = categori.Iteam.Where(_ => _.book == null).Count();
+                                var remainingCapacity = categori.Iteam.Where(_ => _.Book == null).Count();
 
                                 Console.WriteLine($"name is {categori.Name}\ncapacity is {categori.Iteam.Count}" +
                                     $"\nremaining capacity {remainingCapacity}");
@@ -63,16 +63,16 @@
                             foreach (var categori in Librari.GetCategories())
                             {
                                 var capacity = categori.Iteam.Count;
-                                var remainingCapacity = categori.Iteam.Where(_ => _.book == null).Count();
+                                var remainingCapacity = categori.Iteam.Where(_ => _.Book == null).Count();
 
                                 Console.WriteLine($"name is {categori.Name}\ncapacity is {categori.Iteam.Count}" +
                                     $"\nremaining capacity {remainingCapacity}");
 
-                            foreach (var item in categori.Iteam)
-                            {
-                                    var bookName = item.book == null ? "null" : item.book.Name;
+                                foreach (var item in categori.Iteam)
+                                {
+                                    var bookName = item.Book == null ? "null" : item.Book.Name;
                                     Console.WriteLine($"number is {item.Number} - book is {bookName} ");
-                            }
+                                }
                             }
 
 
@@ -105,20 +105,16 @@
                         }
                     case 6:
                         {
-                            var bookName= GetString("enter name book");
+                            var bookName = GetString("enter name book");
                             var categoryName = GetString("enter name category :");
                             Librari.DeleteBook(bookName, categoryName);
-
 
                             break;
                         }
                     case 9:
                         {
                             var name = GetString("enter name");
-
                             Librari.AddUser(name);
-
-
 
                             break;
                         }

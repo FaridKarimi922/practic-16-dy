@@ -9,7 +9,7 @@ namespace tamrin_6_16_dy
     public static class Librari
     {
         private static List<Category> _categoris = new List<Category>();
-        private static List<Book> _book = new List<Book>();
+        private static List<IBook> _book = new List<IBook>();
         private static List<User> users = new();
 
         public static void addCategori(string name, int capacity)
@@ -26,19 +26,18 @@ namespace tamrin_6_16_dy
 
             if (type == 1)
             {
-                SaleBook saleBook = new SaleBook(name);
-                saleBook.AddPrice(price);
-                saleBook.AddCount(count);
-
+                SaleBook saleBook = new SaleBook(name,price,count);
+                saleBook.SetPrice(price);
+                saleBook.SetCount(count);
                 _book.Add(saleBook);
 
             }
             if (type == 2)
             {
 
-                RentBook rentBook = new RentBook(name);
-                rentBook.AddPrice(price);
-                rentBook.AddCount(count);
+                RentBook rentBook = new RentBook(name, price, count);
+                rentBook.SetPrice(price);
+                rentBook.SetCount(count);
                 _book.Add(rentBook);
             }
 
@@ -61,11 +60,11 @@ namespace tamrin_6_16_dy
             {
                 throw new Exception("number not found");
             }
-            if (iteam.book is not null)
+            if (iteam.Book is not null)
             {
                 throw new Exception("error");
             }
-            iteam.book = book;
+            iteam.Book = book;
         }
         public static void AddUser(string name)
         {

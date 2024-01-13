@@ -2,11 +2,8 @@
 {
     public interface IBook
     {
-        int Count { get; }
-        string Name { get; set; }
-        int Price { get; }
-
-        void AddCount(int count);
-        void AddPrice(int price);
+        public string Name { get; set; }
+        void SetCount(int count);
+        void SetPrice(int price);
     }
 }

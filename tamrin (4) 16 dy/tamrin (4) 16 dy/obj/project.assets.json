@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\peyman\\source\\repos\\tamrin (4) 16 dy\\tamrin (4) 16 dy\\tamrin (4) 16 dy.csproj",
+      "projectUniqueName": "C:\\Users\\peyman\\source\\repos\\tamrin 16 dy\\tamrin (4) 16 dy\\tamrin (4) 16 dy\\tamrin (4) 16 dy.csproj",
       "projectName": "tamrin (4) 16 dy",
-      "projectPath": "C:\\Users\\peyman\\source\\repos\\tamrin (4) 16 dy\\tamrin (4) 16 dy\\tamrin (4) 16 dy.csproj",
+      "projectPath": "C:\\Users\\peyman\\source\\repos\\tamrin 16 dy\\tamrin (4) 16 dy\\tamrin (4) 16 dy\\tamrin (4) 16 dy.csproj",
       "packagesPath": "C:\\Users\\peyman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\peyman\\source\\repos\\tamrin (4) 16 dy\\tamrin (4) 16 dy\\obj\\",
+      "outputPath": "C:\\Users\\peyman\\source\\repos\\tamrin 16 dy\\tamrin (4) 16 dy\\tamrin (4) 16 dy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

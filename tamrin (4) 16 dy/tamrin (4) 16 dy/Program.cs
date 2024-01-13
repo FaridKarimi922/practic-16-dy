@@ -34,21 +34,16 @@
                            
                             Game.AddCharecter(Type, name, power, speed, health);
 
-
                             break;
                         }
                     case 2:
                         {
-                           
                             foreach (var charecter  in Game.GetCharecters())
                             {
-
                                 var type = charecter.GetType().Name;
                                 Console.WriteLine($"{type} \nName ={charecter.Name} speed = {charecter.Speed}" +
                                     $" power = {charecter.Power} health = {charecter.Health}");
-                               
                             }
-
                             break;
                         }
                     case 3:

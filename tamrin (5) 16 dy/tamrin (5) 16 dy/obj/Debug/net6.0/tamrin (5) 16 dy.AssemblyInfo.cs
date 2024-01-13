@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tamrin (5) 16 dy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dc246f51c84bd95c224e37f8af8ccc872df36ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("tamrin (5) 16 dy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tamrin (5) 16 dy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

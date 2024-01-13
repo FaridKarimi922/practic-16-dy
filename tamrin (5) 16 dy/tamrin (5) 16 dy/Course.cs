@@ -42,7 +42,6 @@ namespace tamrin__5__16_dy
         }
         public void SetTeacher(Teacher teacher)
         {
-
             Teacher = teacher;
         }
     }

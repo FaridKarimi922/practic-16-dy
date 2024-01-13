@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tamrin__5__16_dy
 {
-    public class Student : IPerson
+    public class Student :IPerson
     {
         public Student(string name, int age, string field)
         {
@@ -17,6 +17,8 @@ namespace tamrin__5__16_dy
         public string Name { get; set; }
         public int Age { get; set; }
         public string Field { get; set; }
+        
+
         public bool AskforCourse(Course course)
         {
             if (course.StudentCount < 100)
@@ -28,5 +30,12 @@ namespace tamrin__5__16_dy
                 return false;
             }
         }
+
+        public void printDetiles()
+        {
+            Console.WriteLine("new student add");
+        }
+
+       
     }
 }

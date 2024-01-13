@@ -2,7 +2,7 @@
 {
     public interface ICourse
     {
-        string Name { get; set; }
+        
         int Unit { get; }
 
         void AddStudent(Student st);

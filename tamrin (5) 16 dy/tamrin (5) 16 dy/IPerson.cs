@@ -8,10 +8,7 @@ namespace tamrin__5__16_dy
 {
     public interface IPerson
     {
-        string Name { get; set; }
-        int Age { get; set; }
-        
-
-
+        void printDetiles();
+       
     }
 }

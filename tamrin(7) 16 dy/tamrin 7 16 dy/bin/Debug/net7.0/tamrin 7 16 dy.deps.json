@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "tamrin 7 16 dy/1.0.0": {
+        "runtime": {
+          "tamrin 7 16 dy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tamrin 7 16 dy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
